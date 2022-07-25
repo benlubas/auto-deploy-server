@@ -9,6 +9,7 @@ dependencies = [
  "futures",
  "hmac",
  "hyper",
+ "secstr",
  "serde_json",
  "sha2",
  "tokio",
@@ -431,6 +432,15 @@ name = "scopeguard"
 version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d29ab0c6d3fc0ee92fe66e2d99f700eab17a8d57d1c1d3b748380fb20baa78cd"
+
+[[package]]
+name = "secstr"
+version = "0.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "49fa8c1d89e7dc5e2776fbf507d8b088ff61bbaf83bf4da1cc9ed1c061358104"
+dependencies = [
+ "libc",
+]
 
 [[package]]
 name = "serde"
